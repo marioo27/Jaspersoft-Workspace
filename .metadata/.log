@@ -1,0 +1,875 @@
+!SESSION 2025-01-24 12:45:32.056 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY com.jaspersoft.studio 1 0 2025-01-24 12:45:57.453
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+!SESSION 2025-01-27 12:27:51.684 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-27 12:28:11.709
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2025-01-27 12:28:14.946
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+!SESSION 2025-01-27 12:31:08.356 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-27 12:31:10.113
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2025-01-27 12:31:12.434
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-27 12:33:44.580
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alumno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2025-01-27 12:34:06.041
+!MESSAGE No repository found at https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/.
+
+!ENTRY com.jaspersoft.studio 4 0 2025-01-27 13:29:44.329
+!MESSAGE Error while performing the new object creation.
+!STACK 0
+com.jaspersoft.studio.model.command.CancelledOperationException: cancelled
+	at com.jaspersoft.studio.model.command.Tag.createVariable(Tag.java:185)
+	at com.jaspersoft.studio.model.command.CreateE4ObjectCommand.createObject(CreateE4ObjectCommand.java:113)
+	at com.jaspersoft.studio.model.command.CreateElementCommand.execute(CreateElementCommand.java:394)
+	at com.jaspersoft.studio.model.command.CreateE4ObjectCommand.execute(CreateE4ObjectCommand.java:163)
+	at com.jaspersoft.studio.model.command.CreateFieldInEditorCommand.execute(CreateFieldInEditorCommand.java:176)
+	at com.jaspersoft.studio.editor.dnd.JSSTemplateTransferDropTargetListener$1.execute(JSSTemplateTransferDropTargetListener.java:423)
+	at org.eclipse.gef.commands.CommandStack.execute(CommandStack.java:229)
+	at com.jaspersoft.studio.editor.dnd.JSSTemplateTransferDropTargetListener.executeCompoundCommand(JSSTemplateTransferDropTargetListener.java:436)
+	at com.jaspersoft.studio.editor.dnd.JSSTemplateTransferDropTargetListener$CommandRunnable.run(JSSTemplateTransferDropTargetListener.java:128)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4058)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:114)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.jface 2 0 2025-01-27 13:35:42.018
+!MESSAGE beginTask should only be called once per instance. At least call done() before further invocations
+!STACK 0
+java.lang.IllegalStateException: beginTask should only be called once per instance. At least call done() before further invocations
+	at org.eclipse.jface.action.StatusLineManager$1.beginTask(StatusLineManager.java:161)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2442)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:539)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:614)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5019)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4815)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSaveEditors(AbstractJRXMLEditor.java:716)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.lambda$3(AbstractJRXMLEditor.java:691)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4814)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:686)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$0(SaveableHelper.java:156)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:261)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:268)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:160)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3819)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3832)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:81)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:569)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:644)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1294)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1159)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1169)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1211)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1207)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1688)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4834)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4712)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3671)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:114)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: java.lang.IllegalStateException: beginTask(Setting character set for resource '/MyReports/Cherry.jrxml'., 1000) was called here previously
+	at org.eclipse.jface.action.StatusLineManager$1.beginTask(StatusLineManager.java:168)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)
+	at org.eclipse.core.internal.resources.File.setCharset(File.java:426)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:650)
+	... 67 more
+
+!ENTRY org.eclipse.jface 2 0 2025-01-27 13:35:42.029
+!MESSAGE beginTask should only be called once per instance. At least call done() before further invocations
+!STACK 0
+java.lang.IllegalStateException: beginTask should only be called once per instance. At least call done() before further invocations
+	at org.eclipse.jface.action.StatusLineManager$1.beginTask(StatusLineManager.java:161)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:349)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.lambda$3(AbstractJRXMLEditor.java:698)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:183)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4814)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:686)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$0(SaveableHelper.java:156)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:261)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:354)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2335)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2332)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:268)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:160)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3819)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3832)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:81)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:569)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:644)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1294)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1159)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1184)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1169)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1211)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1207)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1688)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4834)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4712)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3671)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:114)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+Caused by: java.lang.IllegalStateException: beginTask(, 1000) was called here previously
+	at org.eclipse.jface.action.StatusLineManager$1.beginTask(StatusLineManager.java:168)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.beginTask(ProgressMonitorWrapper.java:53)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.beginTask(EventLoopProgressMonitor.java:64)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)
+	at org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2442)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.executeOperation(AbstractDocumentProvider.java:539)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.saveDocument(AbstractDocumentProvider.java:614)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5019)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSave(AbstractTextEditor.java:4815)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSaveEditors(AbstractJRXMLEditor.java:716)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.lambda$3(AbstractJRXMLEditor.java:691)
+	... 71 more
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-27 13:44:22.850
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-02-05 10:20:54.840 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-05 10:21:14.237
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2025-02-05 10:21:17.389
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-05 10:21:24.169
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alumno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2025-02-05 10:21:44.842
+!MESSAGE No repository found at https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-05 13:55:11.404
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2025-02-10 08:21:35.494 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-10 08:21:55.083
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2025-02-10 08:21:58.220
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-10 08:22:04.805
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alumno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2025-02-10 08:22:25.351
+!MESSAGE Connection to https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-10 08:22:25.627
+!MESSAGE Unable to connect to repository https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/content.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2025-02-10 08:22:25.630
+!MESSAGE Connection to https://download.eclipse.org/releases/2022-12/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-10 08:22:25.842
+!MESSAGE Unable to connect to repository https://download.eclipse.org/releases/2022-12/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2025-02-10 08:22:25.844
+!MESSAGE Connection to https://download.eclipse.org/eclipse/updates/4.26/p2.index failed on null. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-10 08:22:26.053
+!MESSAGE Unable to connect to repository https://download.eclipse.org/eclipse/updates/4.26/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	... 22 more
+!SESSION 2025-02-10 08:38:20.437 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-10 08:38:42.380
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2025-02-10 08:38:45.542
+!MESSAGE Starting JaspersoftStudio bundle - Version: 7.0.1.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-10 08:38:52.014
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alumno'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2025-02-10 08:39:12.798
+!MESSAGE No repository found at https://jaspersoft.github.io/jaspersoftstudio/rcp-updates/e4/.
+
+!ENTRY org.eclipse.jdt.core 4 2 2025-02-10 08:52:01.727
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.indexOf(JSSTableCombo.java:1450)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.setText(JSSTableCombo.java:756)
+	at com.jaspersoft.studio.property.combomenu.WritableComboTableViewer.setText(WritableComboTableViewer.java:406)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem.setFontNameText(TextualFontNameContributionItem.java:350)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem$2.propertyChange(TextualFontNameContributionItem.java:160)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.model.ANode.firePropertyChange(ANode.java:420)
+	at com.jaspersoft.studio.model.ANode.propertyChange(ANode.java:416)
+	at com.jaspersoft.studio.model.MGraphicElement.propertyChange(MGraphicElement.java:984)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.editor.context.JSSClasspathListener.propertyChange(JSSClasspathListener.java:38)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at net.sf.jasperreports.eclipse.classpath.JavaProjectClassLoader$2.elementChanged(JavaProjectClassLoader.java:187)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:810)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3518)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3478)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3534)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRClasspathContainer(ProjectUtil.java:114)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRProject(ProjectUtil.java:85)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.createProject(JRProjectWizard.java:103)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.doFinish(JRProjectWizard.java:91)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard$1.run(JRProjectWizard.java:54)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-02-10 08:52:01.728
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.indexOf(JSSTableCombo.java:1450)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.setText(JSSTableCombo.java:756)
+	at com.jaspersoft.studio.property.combomenu.WritableComboTableViewer.setText(WritableComboTableViewer.java:406)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem.setFontNameText(TextualFontNameContributionItem.java:350)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem$2.propertyChange(TextualFontNameContributionItem.java:160)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.model.ANode.firePropertyChange(ANode.java:420)
+	at com.jaspersoft.studio.model.ANode.propertyChange(ANode.java:416)
+	at com.jaspersoft.studio.model.MGraphicElement.propertyChange(MGraphicElement.java:984)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.editor.context.JSSClasspathListener.propertyChange(JSSClasspathListener.java:38)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at net.sf.jasperreports.eclipse.classpath.JavaProjectClassLoader$2.elementChanged(JavaProjectClassLoader.java:187)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:810)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3518)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3478)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3534)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRClasspathContainer(ProjectUtil.java:114)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRProject(ProjectUtil.java:85)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.createProject(JRProjectWizard.java:103)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.doFinish(JRProjectWizard.java:91)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard$1.run(JRProjectWizard.java:54)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.core 4 2 2025-02-10 08:52:02.147
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.indexOf(JSSTableCombo.java:1450)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.setText(JSSTableCombo.java:756)
+	at com.jaspersoft.studio.property.combomenu.WritableComboTableViewer.setText(WritableComboTableViewer.java:406)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem.setFontNameText(TextualFontNameContributionItem.java:350)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem$2.propertyChange(TextualFontNameContributionItem.java:160)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.model.ANode.firePropertyChange(ANode.java:420)
+	at com.jaspersoft.studio.model.ANode.propertyChange(ANode.java:416)
+	at com.jaspersoft.studio.model.MGraphicElement.propertyChange(MGraphicElement.java:984)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.editor.context.JSSClasspathListener.propertyChange(JSSClasspathListener.java:38)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at net.sf.jasperreports.eclipse.classpath.JavaProjectClassLoader$2.elementChanged(JavaProjectClassLoader.java:187)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:810)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3518)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3478)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3534)
+	at com.jaspersoft.studio.server.container.JRSClasspathContainerFactory.createJRClasspathContainer(JRSClasspathContainerFactory.java:27)
+	at net.sf.jasperreports.eclipse.classpath.container.ClasspathContainerManager.createJRClasspathContainer(ClasspathContainerManager.java:45)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRClasspathContainer(ProjectUtil.java:115)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRProject(ProjectUtil.java:85)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.createProject(JRProjectWizard.java:103)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.doFinish(JRProjectWizard.java:91)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard$1.run(JRProjectWizard.java:54)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-02-10 08:52:02.148
+!MESSAGE Exception occurred in listener of Java element change notification
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.indexOf(JSSTableCombo.java:1450)
+	at net.sf.jasperreports.eclipse.ui.JSSTableCombo.setText(JSSTableCombo.java:756)
+	at com.jaspersoft.studio.property.combomenu.WritableComboTableViewer.setText(WritableComboTableViewer.java:406)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem.setFontNameText(TextualFontNameContributionItem.java:350)
+	at com.jaspersoft.studio.toolbars.text.TextualFontNameContributionItem$2.propertyChange(TextualFontNameContributionItem.java:160)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.model.ANode.firePropertyChange(ANode.java:420)
+	at com.jaspersoft.studio.model.ANode.propertyChange(ANode.java:416)
+	at com.jaspersoft.studio.model.MGraphicElement.propertyChange(MGraphicElement.java:984)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at com.jaspersoft.studio.editor.context.JSSClasspathListener.propertyChange(JSSClasspathListener.java:38)
+	at java.desktop/java.beans.PropertyChangeSupport.fire(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(Unknown Source)
+	at net.sf.jasperreports.eclipse.classpath.JavaProjectClassLoader$2.elementChanged(JavaProjectClassLoader.java:187)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1751)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1739)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1572)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1548)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2259)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2151)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:501)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2465)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:810)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3518)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3478)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3534)
+	at com.jaspersoft.studio.server.container.JRSClasspathContainerFactory.createJRClasspathContainer(JRSClasspathContainerFactory.java:27)
+	at net.sf.jasperreports.eclipse.classpath.container.ClasspathContainerManager.createJRClasspathContainer(ClasspathContainerManager.java:45)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRClasspathContainer(ProjectUtil.java:115)
+	at net.sf.jasperreports.eclipse.wizard.project.ProjectUtil.createJRProject(ProjectUtil.java:85)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.createProject(JRProjectWizard.java:103)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard.doFinish(JRProjectWizard.java:91)
+	at net.sf.jasperreports.eclipse.wizard.project.JRProjectWizard$1.run(JRProjectWizard.java:54)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.text 4 2 2025-02-10 09:13:58.806
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:3865)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6114)
+	at org.eclipse.swt.custom.StyledText$5.textChanging(StyledText.java:5396)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:360)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:277)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:628)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1122)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1114)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:999)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:660)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.text 4 2 2025-02-10 09:13:58.809
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:316)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7783)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6151)
+	at org.eclipse.swt.custom.StyledText$5.textSet(StyledText.java:5404)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:332)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:254)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:731)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:708)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:692)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:766)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1131)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1114)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:999)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:660)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.text 4 2 2025-02-10 09:13:58.811
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4922)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:488)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:408)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7724)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:562)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:551)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:215)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:398)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:739)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:708)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:692)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:766)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1131)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1114)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:999)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:660)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:97)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+	<name>New Data Adapter</name>
+	<classpath>C:\Users\alumno\Downloads\mysql-connector-j-9.1.0.jar</classpath>
+	<driver>com.mysql.jdbc.Driver</driver>
+	<username>root</username>
+	<password>Root2425</password>
+	<url>jdbc:mysql://localhost/biblioteca</url>
+	<database/>
+	<savePassword>true</savePassword>
+	<serverAddress/>
+</jdbcDataAdapter>
